@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">DTCS</string>
+    <string name="Dialog_title">验证码</string>
+    <string name="Dialog_OK">确认</string>
+    <string name="Dialog_cancl">取消</string>
+    <!--Login登陆界面-->
+    <string name="Login_DTCS">DTCS</string>
+    <string name="Login_account">账号</string>
+    <string name="Login_word">密码</string>
+    <string name="Login_Buttonlog">登&#160;录</string>
+    <string name="Login_Forgetword">忘记密码</string>
+    <string name="Login_apply">加入我们</string>
+    <string name="Login_">忘记密码</string>
+    <string name="Login_Datatomato">Datatomato</string>
+
+    <!--签到界面-->
+    <string name="Sign_Numday">签到天数</string>
+    <string name="Sign_Buttonday">开始签到</string>
+    <string name="Sing_canlender">签到日历</string>
+    <string name="Sing_canlender1">Check the calendar</string>
+    <string name="Sing_Message">消息</string>
+    <string name="Sing_Message1">Message</string>
+    <string name="Sing_Birthday">生日</string>
+    <string name="Sing_Birthday1">没有人过生日</string>
+    
+    <!--工具界面-->
+    <string name="Tool_tool">工具</string>
+    <string name="Tool_Manage">&#160;&#160;&#160;&#160;管理 Manage</string>
+    <string name="Tool_Manage1">实验员管理系统</string>
+    <string name="Tool_Manage2">管理员管理系统</string>
+    <string name="Tool_Manage3">研究员管理系统</string>
+    <string name="Tool_equitment">设备管理</string>
+    <string name="Tool_document">文档管理</string>
+    <string name="Tool_game">比赛管理</string>
+    <string name="Tool_jurisdiction">权限管理</string>
+    <string name="Tool_Other">&#160;&#160;&#160;&#160;其他功能 Other</string>
+    
+    <string name="Tool_equipmentInformation">设备信息</string>
+    <string name="Tool_equipmentInformation1">&#160;&#160;&#160;&#160;Device Information</string>
+    <string name="Tool_safe">安全</string>
+
+    <string name="Tool_receipt">借条</string>
+    <string name="Tool_receipt1">&#160;&#160;&#160;&#160;IOU</string>
+    
+    <string name="Tool_sharedocument">共享文档</string>
+    <string name="Tool_Meassage">消息</string>
+    <string name="Tool_coutse">课程</string>
+    <string name="Tool_plan">计划任务</string>
+    <string name="Tool_setting"> 全局设置</string>
+     <!-- ListView-->
+    <string name="Tool_tip"> 下拉可以刷新</string>
+    <string name="Tool_LaboratoryTechnician"> 实验员管理</string>
+    <string name="Tool_AdministratorTechnician"> 管理员管理</string>
+    <string name="Tool_ResearcherTechnician"> 研究员管理</string>
+    <string name="Tool_DownloadFile">共享文件</string>
+    <string name="Tool_Insert"> 增加</string>
+    <string name="Tool_UpData"> 查找</string>
+    <string name="Tool_Delete"> 删除</string>
+    
+    <string name="view_desricpt">文件描述:</string>
+    <string name="view_type">文件类型:</string>
+    <string name="view_size">文件大小:</string>
+    <string name="view_remark">备注:</string>
+    <string name="view_down">下载</string>
+    <string name="view_pause1">暂停</string>
+    <string name="view_pause2">继续</string>
+    <string name="view_cancel">取消</string>
+    <string name="view_path"> 默认存储路径: 存储盘/Download</string>
+    <string name="view_safeCheck">安全检查</string>
+    <string name="view_safeCheck1">检查记录</string>
+    <string name="view_safe"> 检查项目 电源 桌椅 计算机 键位 空调 卫生 总闸</string>
+    <string name="view_power">电源</string>
+    <string name="view_tableChair">桌椅</string>
+    <string name="view_computer">计算机</string>
+    <string name="view_keyMap">键位</string>
+    <string name="view_airConditioner">空调</string>
+    <string name="view_sanitation">卫生</string>
+    <string name="view_mainSwitch">总闸</string>
+    <string name="view_compet">比赛列表</string>
+
+    <string name="Setting_Sign">&#160;&#160;&#160;&#160;自动签到设置</string>
+    <string name="Setting_iamge">&#160;&#160;&#160;&#160;登陆加载每日一图</string>
+
+    <string name="Lessons">课程信息</string>
+    <!--个人界面-->
+    <string name="Personage_person">个人中心</string>
+    <string name="Personage_shiyan">&#160;实验员&#160;</string>
+    <string name="Personage_message"> 信息</string>
+    <string name="Personage_grade">成绩</string>
+    <string name="Personage_regard">关于</string>
+    <string name="Personage_setting">设置</string>
+    <string name="Personage_refresh">刷新</string>
+
+    <string name="Personage_exit">退出</string>
+    
+    <string name="Pp_number">编号id</string>
+    <string name="Pp_Email">邮箱</string>
+    <string name="Pp_grade">年级</string>
+    <string name="Pp_class">班级</string>
+    <string name="Pp_information">个人信息</string>
+    <string name="Pp_headPortrait">头像</string>
+    <string name="Pp_name">姓名</string>
+    <string name="Pp_sex">性别</string>
+    <string name="Pp_birthday">生日</string>
+    <string name="Pp_department">学院</string>
+    <string name="Pp_major">专业</string>
+    <string name="Pp_phone">手机号</string>
+
+   <!-- 菜单-->
+    <string name="menu_uploading">上传</string>
+
+</resources>
