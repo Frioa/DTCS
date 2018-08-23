@@ -226,6 +226,7 @@ public class Activity_Login extends AppCompatActivity implements View.OnClickLis
                 n++;
                 break;
             case R.id.TV_Forgetword:
+
                     /*Intent intent1 =new Intent(Activity_Login.this,LoadingActivity.class);
                      startActivity(intent1);  //启动*/
                      Toast.makeText(Activity_Login.this,"如忘记密码请与管理员联系",Toast.LENGTH_SHORT).show();

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/IV_tab02Return0"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/linear_record_historylist"
+            android:src="@mipmap/return_arrows"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Tool_LaboratoryTechnician"
+            android:textColor="#000"
+            android:textSize="22sp"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+
+            />
+    </LinearLayout>
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="0.66dp"
+        android:background="@color/grayWire"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:id="@+id/LL_tab02Inset"
+                android:background="@drawable/linear_record_tab02button"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:layout_weight="0.42">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="-2dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/function_insert"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="36dp"
+                    android:layout_weight="0.8"
+                    android:layout_marginLeft="-5dp"
+                    android:gravity="center"
+                    android:text="@string/Tool_Insert"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:id="@+id/TV_tab02Inset" />
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:id="@+id/LL_tab02Select"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/linear_record_tab02button"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:layout_weight="0.42">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="-2dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/function_select"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="36dp"
+                    android:layout_weight="0.8"
+                    android:layout_marginLeft="-5dp"
+                    android:gravity="center"
+                    android:text="@string/Tool_UpData"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:id="@+id/TV_tab02Select" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+
+            <LinearLayout
+                android:id="@+id/LL_tab02Delete"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:background="@drawable/linear_record_tab02button"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:clickable="true"
+                android:layout_weight="0.42">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="-2dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/function_delete"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_height="36dp"
+                    android:layout_weight="0.8"
+                    android:layout_marginLeft="-5dp"
+                    android:gravity="center"
+                    android:text="@string/Tool_Delete"
+                    android:textSize="15dp"
+                    android:textColor="#000"
+                    android:id="@+id/TV_tab02Delete" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.66dp"
+        android:background="@color/grayWire"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.example.dtcs.Tab02ReFlashListView
+                android:id="@+id/LV_ExprimentListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.example.dtcs.Tab02ReFlashListView>
+
+            <include layout="@layout/pull_refresh"
+                android:id="@+id/pull_include"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4.5"
+        android:gravity="center"
+        android:textColor="@color/colorGrayFonts"
+        android:layout_marginBottom="2dp"
+        android:text="下拉可以刷新"
+        />
+</LinearLayout>

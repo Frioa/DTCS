@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/LL_home"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorFonts"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/icon_dayborde"
+                android:src="@mipmap/dtcs_icon"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/Login_Datatomato"
+                android:textColor="#fff"
+                android:textSize="22sp"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="20dp"
+                android:background="@mipmap/mailbox"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TV_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+            android:text="360"
+            android:textColor="#fff"
+            android:textSize="80sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Sign_Numday"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginTop="-6dp"
+            />
+
+        <Button
+            android:id="@+id/Bt_Sign"
+            android:layout_width="120dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="@string/Sign_Buttonday"
+            android:textSize="22sp"
+            android:textColor="@color/colorFonts"
+            android:background="@drawable/button_dayborde"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/LL_CheckCanlender"
+            android:layout_width="match_parent"
+            android:background="@drawable/linear_record_historylist"
+            android:clickable="true"
+            android:layout_height="70dp">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@mipmap/sign_canlender"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:text="@string/Sing_canlender"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/Sing_canlender1"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@mipmap/sign_arrow"
+                android:layout_marginTop="23dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/Sign_arrow1" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BFBFBF"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/linear_record_historylist"
+                android:clickable="true"
+                android:layout_height="70dp">
+                <ImageView
+                    android:layout_width="42dp"
+                    android:layout_height="40dp"
+                    android:background="@mipmap/sign_message"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="18dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16sp"
+                        android:text="@string/Sing_Message"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/Sing_Message1"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@mipmap/sign_arrow"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/Sign_arrow2"
+                     />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#BFBFBF"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/linear_record_historylist"
+                    android:clickable="true"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@mipmap/sgin_candle"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="20dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="18dp"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="16sp"
+                            android:text="@string/Sing_Birthday"
+                            android:textColor="#000"/>
+
+                        <TextView
+                            android:id="@+id/TV_Tab01Birthday"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="@string/Sing_Birthday1"
+                            android:singleLine="true"
+                            android:ellipsize="marquee"
+                            android:focusable="true"
+                            android:focusableInTouchMode="true"
+
+                            />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:background="@mipmap/sign_arrow"
+                        android:layout_marginTop="23dp"
+                        android:layout_marginRight="20dp"
+                        android:id="@+id/Sign_arrow3"
+                        />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#BFBFBF"/>
+
+
+    </LinearLayout>
+        </LinearLayout></LinearLayout>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/LL_shop"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/colorFonts"
+
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/icon_dayborde"
+            android:src="@mipmap/dtcs_icon"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:gravity="center"
+            android:text="@string/Tool_tool"
+            android:textColor="#fff"
+            android:textSize="24sp"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+
+            />
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:textColor="#7f7f7f"
+        android:textSize="14dp"
+        android:text="@string/Tool_Manage"
+        android:background="@drawable/textview_toolborde"
+        android:gravity="center|left"
+        android:id="@+id/functon_TV" />
+
+    <GridView
+        android:layout_marginTop="10dp"
+        android:id="@+id/GV_Manage"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:numColumns="3"
+        android:columnWidth="90dp"
+        android:verticalSpacing="14dp"
+        android:layout_height="243dp"
+        android:layout_weight="1"
+        >
+
+
+
+    </GridView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:textColor="#7f7f7f"
+        android:textSize="14dp"
+        android:text="@string/Tool_Other"
+
+        android:background="@drawable/textview_toolborde"
+        android:gravity="center|left"
+         />
+
+    <GridView
+        android:layout_marginTop="0dp"
+        android:id="@+id/GV_Other"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:numColumns="3"
+        android:columnWidth="90dp"
+        android:verticalSpacing="18dp"
+        android:layout_weight="2"
+        android:layout_height="185dp"
+        />
+
+   
+</LinearLayout>

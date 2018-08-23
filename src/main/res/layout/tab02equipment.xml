@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/IV_tab02Return3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/linear_record_historylist"
+            android:src="@mipmap/return_arrows"
+            android:descendantFocusability="blocksDescendants"
+            />
+
+        <TextView
+            android:id="@+id/TV_DownloadTitleView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/Tool_equitment"
+            android:textColor="#000"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:textColor="#7f7f7f"
+        android:textSize="14dp"
+        android:text="@string/Tool_equipmentInformation1"
+        android:background="@drawable/textview_toolborde"
+        android:gravity="center|left"
+        android:id="@+id/functon_TV" />
+
+    <LinearLayout
+        android:id="@+id/LL_EquipmentInformation"
+        android:layout_width="match_parent"
+        android:background="@drawable/linear_record_historylist"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/equiptmeninfo"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"
+            android:textSize="16.5dp"
+            android:gravity="center|left"
+            android:text="@string/Tool_equipmentInformation"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_EquipmentSafety"
+        android:layout_width="match_parent"
+        android:background="@drawable/linear_record_historylist"
+        android:clickable="true"
+        android:layout_marginTop="0.75dp"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/function_jurisdiction"
+            android:layout_marginLeft="16dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"
+            android:textSize="16.5dp"
+            android:gravity="center|left"
+            android:text="@string/view_safeCheck"
+            android:id="@+id/textView2" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:textColor="#7f7f7f"
+        android:textSize="14dp"
+        android:text="@string/Tool_receipt1"
+        android:background="@drawable/textview_toolborde"
+        android:gravity="center|left"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/linear_record_historylist"
+        android:clickable="true"
+        android:id="@+id/LL_EquipmentReceipt"
+        android:layout_height="40dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/equipmentre"
+            android:layout_marginLeft="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:textColor="#000"
+            android:textSize="16.5dp"
+            android:gravity="center|left"
+            android:text="@string/Tool_receipt"/>
+
+    </LinearLayout>
+</LinearLayout>

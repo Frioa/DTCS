@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/IV_tab02ReturnWeb"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/linear_record_historylist"
+            android:src="@mipmap/return_arrows"
+            android:descendantFocusability="blocksDescendants"
+            />
+
+        <TextView
+            android:id="@+id/TV_DownloadTitleView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="DTCS"
+            android:textColor="#000"
+            android:textSize="22sp"/>
+        <TextView
+            android:id="@+id/TV_safeUpdataSubmit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+
+
+            android:textColor="@color/colorAccent"
+            />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/WV_dtvsWeb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        ></WebView>
+</LinearLayout>

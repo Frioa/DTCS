@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dtcs.Tab01CheckCanlender"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="3.5">
+        <LinearLayout
+            android:layout_weight="1.52"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/paging_head"
+                android:id="@+id/CheckCanlender_include" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="#fff"
+            android:layout_weight="1.1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="1.4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_weight="1.5"
+                android:text="36"
+                android:id="@+id/TV_SignDate1"
+                android:textColor="@color/colorAccent"
+                android:textSize="60sp"
+                android:gravity="center|right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/TV_checkDay"
+                android:layout_weight="1.65"
+                android:text=" Day"
+                android:textColor="@color/colorAccent"
+                android:textSize="30sp"
+                android:gravity="bottom|left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="2dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:gravity="left|bottom"
+                >
+               <ImageView
+                   android:layout_width="25dp"
+                   android:layout_height="25dp"
+                   android:src="@mipmap/canlenderblue"
+                   android:gravity="bottom|left"
+                   android:layout_marginBottom="7dp"
+                   />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.example.dtcs.Canlender.SignCanlender
+        android:id="@+id/DatePicker1"
+        android:layout_weight="0.92"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <!--<CalendarView
+        android:id="@+id/SginCalender"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </CalendarView>-->
+</LinearLayout>
